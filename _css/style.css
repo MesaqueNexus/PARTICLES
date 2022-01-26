@@ -1,0 +1,32 @@
+@charset "UTF-8"
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: #f0b8ff;
+    border: none;
+}
+
+body {
+    background-color: #DCDCDC;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+nav .navbar-brand {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+footer {
+	clear:	both;
+	font-family: 'times new roman', sans-serif;
+    margin-top: 30px;
+    padding-top: 5px;
+	height: 75px;
+	border-top: 1px solid #4c4c4c;
+    text-align: center;
+}
