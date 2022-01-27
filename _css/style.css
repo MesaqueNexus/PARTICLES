@@ -19,14 +19,20 @@ h1 {
 
 nav .navbar-brand {
     font-family: 'Mochiy Pop P One', sans-serif;
+    color: #008000;
 }
 
 footer {
-	clear:	both;
 	font-family: 'times new roman', sans-serif;
     margin-top: 30px;
     padding-top: 5px;
-	height: 75px;
 	border-top: 1px solid #4c4c4c;
     text-align: center;
+    padding-bottom: 0px;
+}
+
+footer i{
+    padding-top: 0px;
+    padding: 5px;
+    color: #008000;
 }
