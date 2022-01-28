@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #DCDCDC;
+    background: linear-gradient(to bottom, #0067ee, #559dfa);
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
@@ -23,21 +23,19 @@ nav .navbar-brand {
 }
 
 footer {
+    bottom: 0;
+    background-color: #ffff;
+    padding: 10px;
+    display: block;
 	font-family: 'times new roman', sans-serif;
-    margin-top: 30px;
-    padding-top: 5px;
 	border-top: 1px solid #4c4c4c;
     text-align: center;
-    padding-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 7vmax;
 }
 
 footer i{
-    padding-top: 0px;
     padding: 5px;
-    color: #008000;
-}
-
-.nav_icons {
-    padding: 10px;
-    color: #008000;
+    color: #1E90FF;
+    font-size: 17px;
 }
