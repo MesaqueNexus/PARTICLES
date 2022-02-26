@@ -10,16 +10,22 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #0067ee, #559dfa);
+    background: url('../_img/background.jpg') no-repeat fixed top, linear-gradient(to bottom, #0067ee, #559dfa);
+    opacity: 80%;
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
-nav .navbar-brand {
+nav #logo{
     font-family: 'Mochiy Pop P One', sans-serif;
-    color: #008000;
+    color: #1E90FF;
+}
+
+nav #logo:hover {
+    color: #018a1f;
+    transition: 0.3s;
 }
 
 footer {
@@ -28,8 +34,7 @@ footer {
     padding: 10px;
     display: block;
 	font-family: 'times new roman', sans-serif;
-	border-top: 1px solid #4c4c4c;
-    text-align: center;
+	text-align: center;
     margin-top: 10px;
     padding-bottom: 7vmax;
 }
@@ -38,4 +43,9 @@ footer i{
     padding: 5px;
     color: #1E90FF;
     font-size: 17px;
+}
+
+footer a :hover {
+    color: #018a1f;
+    transition: 0.3s;
 }
