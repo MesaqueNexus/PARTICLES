@@ -10,8 +10,9 @@
 }
 
 body {
-    background: url('../_img/background.jpg') no-repeat fixed top, linear-gradient(to bottom, #0067ee, #559dfa);
-    opacity: 80%;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to bottom, #0067ee, #559dfa);
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
